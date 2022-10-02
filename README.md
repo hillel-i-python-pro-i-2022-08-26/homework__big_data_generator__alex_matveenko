@@ -4,6 +4,8 @@
 
 ## Main commands
 
+[![Main workflow](https://github.com/hillel-i-python-pro-i-2022-08-26/homework__big_data_generator__alex_matveenko/actions/workflows/main-workflow.yml/badge.svg)](https://github.com/hillel-i-python-pro-i-2022-08-26/homework__big_data_generator__alex_matveenko/actions/workflows/main-workflow.yml)
+
 * `homework-i-run` - *run homework script*
 * `init-dev` - *install requirements*
 * `d-homework-i-run` - *run docker*
