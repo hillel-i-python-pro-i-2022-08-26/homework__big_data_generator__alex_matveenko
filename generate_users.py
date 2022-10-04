@@ -31,7 +31,7 @@ def generate_users(amount: int) -> Iterator[UserProtocol]:
     password: set[str] = set()
     # Generate_info__start
     while len(login) != amount and len(password) != amount:
-        fake_name = f"{fake.profile()['username']}_{fake.first_name().lower()}"
+        fake_name = f"{fake.profile()['username']}_{fake.name().split()[1].lower()}"
         fake_password = f"{fake.password()}{random.randint(1, 9999)}"
         # Generate_info__stop
 
