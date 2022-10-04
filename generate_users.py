@@ -33,9 +33,10 @@ def generate_users(amount: int) -> Iterator[UserProtocol]:
     while len(login) != amount and len(password) != amount:
         fake_name = f"{fake.profile()['username']}_{fake.first_name().lower()}"
         fake_password = f"{fake.password()}{random.randint(1, 9999)}"
+        # Generate_info__stop
+
         login.add(fake_name)
         password.add(fake_password)
-    # Generate_info__stop
 
     for name, pas in zip(login, password):
         yield Person(login=name, password=pas)
