@@ -1,0 +1,6 @@
+# Ignore all
+**
+# with the exception of
+!generate_users.py
+!requirements.txt
+!Makefile
